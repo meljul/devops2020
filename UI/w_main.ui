@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>591</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>point de vente</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="te_purchase_recap">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>89</y>
+      <width>246</width>
+      <height>496</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>11</y>
+      <width>360</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="b_edit_user">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Editer
+employé</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="b_add_menu">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Ajouter
+menu</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="b_edit_menu">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Editer
+menu</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="b_add_user">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Ajouter
+employé</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="ld_current_menu">
+    <property name="geometry">
+     <rect>
+      <x>419</x>
+      <y>112</y>
+      <width>130</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ld_current_user">
+    <property name="geometry">
+     <rect>
+      <x>419</x>
+      <y>90</y>
+      <width>130</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_current_user">
+    <property name="geometry">
+     <rect>
+      <x>264</x>
+      <y>90</y>
+      <width>129</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Employé sélectionné :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_menu_select">
+    <property name="geometry">
+     <rect>
+      <x>264</x>
+      <y>112</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Menu sélectionné :</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>264</x>
+      <y>134</y>
+      <width>289</width>
+      <height>458</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="b_select_user">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Selectionner employé</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="b_validate_purchase">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Valider commande</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="b_k_7">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="b_k_8">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="b_k_9">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="b_k_4">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="b_k_5">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="b_k_6">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="b_k_1">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="b_k_2">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QPushButton" name="b_k_3">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="b_k_0">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::NoContextMenu</enum>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="0">
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="b_k_cancel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>Annuler</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="b_k_enter">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Entrer</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>b_add_user</tabstop>
+  <tabstop>b_edit_user</tabstop>
+  <tabstop>b_add_menu</tabstop>
+  <tabstop>b_edit_menu</tabstop>
+  <tabstop>b_select_user</tabstop>
+  <tabstop>b_k_enter</tabstop>
+  <tabstop>b_k_cancel</tabstop>
+  <tabstop>b_validate_purchase</tabstop>
+  <tabstop>te_purchase_recap</tabstop>
+  <tabstop>b_k_0</tabstop>
+  <tabstop>b_k_1</tabstop>
+  <tabstop>b_k_2</tabstop>
+  <tabstop>b_k_3</tabstop>
+  <tabstop>b_k_4</tabstop>
+  <tabstop>b_k_5</tabstop>
+  <tabstop>b_k_6</tabstop>
+  <tabstop>b_k_7</tabstop>
+  <tabstop>b_k_8</tabstop>
+  <tabstop>b_k_9</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
